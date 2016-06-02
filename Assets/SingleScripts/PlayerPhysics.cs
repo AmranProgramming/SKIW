@@ -4,6 +4,7 @@ using System;
 
 public class PlayerPhysics : MonoBehaviour
 {
+    #region
     //references
     CharacterController cc;
     PlayerInput playerInput;
@@ -29,6 +30,8 @@ public class PlayerPhysics : MonoBehaviour
 
     //Headbobbing fields
     private Vector3 movementVector;
+
+    #endregion
 
     void Awake()
     {
